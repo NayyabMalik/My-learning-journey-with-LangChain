@@ -1,1 +1,89 @@
+```
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets
 .env
+*.env
+*.secret
+*.key
+api_key.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# LangChain-specific
+# Ignore large datasets or temporary files from RAG or vector stores
+data/
+*.csv
+*.jsonl
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+temp/
+tmp/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.cache
+nosetests.xml
+pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.lock
+
+# Large files or archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+```
